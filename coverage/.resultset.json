@@ -1,0 +1,60 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Sara/rails_projects/temp/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Sara/rails_projects/temp/app/helpers/application_helper.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Sara/rails_projects/temp/app/helpers/blogs_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Sara/rails_projects/temp/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Sara/rails_projects/temp/app/controllers/blogs_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Sara/rails_projects/temp/app/controllers/users_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Sara/rails_projects/temp/app/models/user.rb": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1438097841
+  }
+}
