@@ -11,7 +11,7 @@ Temp::Application.routes.draw do
 
   match '/signup', to: 'users#new'
   match '/about', to: 'blogs#about'
-  match '/sendemail', to: 'contacts#send'
+  match '/sendemail', to: 'blogs#send'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
