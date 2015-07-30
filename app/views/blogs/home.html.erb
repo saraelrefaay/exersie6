@@ -7,6 +7,9 @@
 </div>
 
 <div class="container">
+<% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
 	<!-- Example row of columns --> 
 	<div class="row">
 		<div class="col-md-4">

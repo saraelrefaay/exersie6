@@ -1,11 +1,11 @@
 Temp::Application.routes.draw do
   # get "users/new"
+  post "blogs/send_email"
 
   # get "blogs/about"
 
   # get "blogs/home"
   resources :users
-  resources :contacts
 
   root :to => 'blogs#home'
 
