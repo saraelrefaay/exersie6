@@ -4,12 +4,14 @@ Temp::Application.routes.draw do
   # get "blogs/about"
 
   # get "blogs/home"
-
+  resources :users
+  resources :contacts
 
   root :to => 'blogs#home'
 
   match '/signup', to: 'users#new'
   match '/about', to: 'blogs#about'
+  match '/sendemail', to: 'contacts#send'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
