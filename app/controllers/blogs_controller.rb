@@ -10,7 +10,7 @@ class BlogsController < ApplicationController
 
   def send_email
 	redirect_to root_url, :notice => "Email sent with subject #{params['subject']} and body
-	#{params['body']}}"
+	#{params['body']}"
   end
 
   def new
