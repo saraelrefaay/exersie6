@@ -1,6 +1,7 @@
 Temp::Application.routes.draw do
   # get "users/new"
   post "blogs/send_email"
+  post "sessions/create"
 
   # get "blogs/about"
 
@@ -10,6 +11,7 @@ Temp::Application.routes.draw do
 
  match '/signin', to: 'sessions#new'
  match '/signout', to: 'sessions#destroy', via: :delete
+
 
 
   root :to => 'blogs#home'
