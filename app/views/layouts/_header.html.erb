@@ -23,11 +23,9 @@
                     <li><%= link_to "Profile", current_user %></li> 
                     <li><%= link_to "Settings", '#' %></li>
                     <li class="divider"></li>
-                   
                   </ul> 
                 </li>
             <% else %>
-
                   <%= form_tag("/sessions") do %> 
                     <%= label_tag :email %>
                     <%= text_field_tag :email %> 
