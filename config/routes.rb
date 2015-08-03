@@ -14,6 +14,7 @@ Temp::Application.routes.draw do
 
 
 
+
   root :to => 'blogs#home'
 
   match '/signup', to: 'users#new'
