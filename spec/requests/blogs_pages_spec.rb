@@ -67,12 +67,25 @@ describe "blogs" do
   end
 
 
+  describe "edit" do
+    let(:user) { FactoryGirl.create(:user) }
+
+    describe "page" do
+      before {visit edit_user_path(user)}
+      it { should have_selector('title', text: "Edit user") }
+      it { should have_selector('h1', text: "update your profile") }
+
+    end
+  end 
+
+
+
+
   it "should have the right link" do
     visit root_path
     click_link "About"
     page.should have_selector 'h1', text: 'About Us'
-    click_link "Sign Up"
-    page.should have_selector 'h1', text: 'Sign Up'
+
 
    end
  end
